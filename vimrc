@@ -31,6 +31,8 @@ vnoremap <tab> %
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=85
+if exists('+colorcolumn')
+	set colorcolumn=80
+endif
 
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
