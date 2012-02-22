@@ -1,8 +1,9 @@
 filetype off
 call pathogen#infect()
+call pathogen#helptags()
+filetype plugin indent on
 
 syntax on
-filetype plugin indent on
 syntax enable
 
 set background=dark
@@ -16,8 +17,8 @@ set sw=4
 
 set encoding=utf-8
 let mapleader=","
-nnoremap / /\v
-vnoremap / /\v
+#nnoremap / /\v
+#vnoremap / /\v
 set ignorecase
 set smartcase
 set gdefault
