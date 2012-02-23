@@ -17,8 +17,6 @@ set sw=4
 
 set encoding=utf-8
 let mapleader=","
-#nnoremap / /\v
-#vnoremap / /\v
 set ignorecase
 set smartcase
 set gdefault
