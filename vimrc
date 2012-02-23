@@ -10,6 +10,7 @@ set background=dark
 colorscheme solarized
 
 set ruler
+set number
 set showcmd
 
 set ts=4
