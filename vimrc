@@ -28,6 +28,8 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
+set clipboard=unnamed
+
 set wrap
 set textwidth=79
 set formatoptions=qrn1
@@ -36,3 +38,5 @@ if exists('+colorcolumn')
 endif
 
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+set guifont=DejaVu\ Sans\ Mono:h12
