@@ -28,6 +28,8 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
+map <F2> :NERDTreeToggle<CR>
+
 set clipboard=unnamed
 
 set wrap
