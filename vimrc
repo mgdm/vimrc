@@ -41,4 +41,12 @@ endif
 
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
-set guifont=DejaVu\ Sans\ Mono:h12
+if has("gui_macvim")
+	set guifont=DejaVu\ Sans\ Mono:h12
+else
+	set guifont=DejaVu\ Sans\ Mono\ 12
+endif
+
+au BufNewFile,BufRead *.less set filetype=less
+
+nnoremap <F3> :NumbersToggle<CR>

@@ -28,3 +28,6 @@
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/numbers"]
+	path = bundle/numbers
+	url = https://github.com/myusuf3/numbers.vim.git
