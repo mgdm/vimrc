@@ -25,8 +25,9 @@ set incsearch
 set showmatch
 set hlsearch
 nnoremap <leader><space> :noh<cr>
-nnoremap <tab> %
-vnoremap <tab> %
+
+set ofu=syntaxcomplete#Complete
+let g:SuperTabDefaultCompletionType = "<C-P>"
 
 map <F2> :NERDTreeToggle<CR>
 
@@ -40,6 +41,9 @@ if exists('+colorcolumn')
 endif
 
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+vmap <C-U><C-E> :!~/.vim/bin/urlencode<CR>:s/%0a$//<CR>:s/%0a/<C-V><CR>/g<CR> 
+vmap <C-U><C-D> :!~/.vim/bin/urlencode -d<CR>
 
 if has("gui_macvim")
 	set guifont=DejaVu\ Sans\ Mono:h12
