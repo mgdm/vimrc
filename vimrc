@@ -54,3 +54,7 @@ endif
 au BufNewFile,BufRead *.less set filetype=less
 
 nnoremap <F3> :NumbersToggle<CR>
+
+set laststatus=2
+set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
+let g:Powerline_colorscheme = 'solarized256'
