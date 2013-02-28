@@ -6,10 +6,10 @@ filetype plugin indent on
 syntax on
 syntax enable
 
-let g:solarized_termcolors=256
 set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
 colorscheme solarized
-set background=dark
+let g:solarized_termcolors=256
+"set background=dark
 
 set ruler
 set number
@@ -58,4 +58,4 @@ au BufNewFile,BufRead *.less set filetype=less
 nnoremap <F3> :NumbersToggle<CR>
 
 set laststatus=2
-let g:Powerline_colorscheme = 'solarized256'
+"let g:Powerline_colorscheme = 'solarized256'
