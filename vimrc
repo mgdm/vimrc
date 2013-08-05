@@ -15,6 +15,7 @@ set background=dark
 set ruler
 set number
 set showcmd
+set noerrorbells
 
 set ts=4
 set sw=4
@@ -25,7 +26,7 @@ set ignorecase
 set smartcase
 set gdefault
 set incsearch
-set showmatch
+"set showmatch
 set hlsearch
 nnoremap <leader><space> :noh<cr>
 
