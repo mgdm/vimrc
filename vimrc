@@ -31,7 +31,7 @@ set hlsearch
 nnoremap <leader><space> :noh<cr>
 
 set ofu=syntaxcomplete#Complete
-let g:SuperTabDefaultCompletionType = "<C-P>"
+"let g:SuperTabDefaultCompletionType = "<C-P>"
 
 nnoremap <leader>t :NERDTreeToggle<CR>
 
