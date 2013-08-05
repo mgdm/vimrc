@@ -33,7 +33,7 @@ nnoremap <leader><space> :noh<cr>
 set ofu=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "<C-P>"
 
-map <F2> :NERDTreeToggle<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
 
 set clipboard=unnamed
 
