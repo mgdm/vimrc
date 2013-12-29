@@ -34,11 +34,15 @@ set ofu=syntaxcomplete#Complete
 "let g:SuperTabDefaultCompletionType = "<C-P>"
 
 nnoremap <leader>t :NERDTreeToggle<CR>
+nnoremap <leader>z :Goyo<CR>
 
 set clipboard=unnamed
 
 set wrap
-set textwidth=79
+set textwidth=0
+set wrapmargin=0
+set linebreak
+set nolist
 set formatoptions=qrn1
 if exists('+colorcolumn')
 	set colorcolumn=80
