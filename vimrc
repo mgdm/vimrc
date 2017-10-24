@@ -24,8 +24,6 @@ nmap <Leader>t :Files<CR>
 nmap <Leader>r :Tags<CR>
 
 noremap <C-P> :Files<CR>
-vnoremap <C-P> <C-C>:Files<CR>
-inoremap <C-P> <C-O>:Files<CR>
 
 syntax enable
 set background=dark
