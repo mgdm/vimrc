@@ -22,3 +22,10 @@ let mapleader = ","
 nmap ; :Buffers<CR>
 nmap <Leader>t :Files<CR>
 nmap <Leader>r :Tags<CR>
+
+noremap <C-P> :Files<CR>
+
+syntax enable
+set background=dark
+colorscheme material-theme
+set termguicolors
